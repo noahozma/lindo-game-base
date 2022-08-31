@@ -138,7 +138,7 @@ try {
         text: 'lindo-app.com'
       }
 
-      sendPopup(texts, link)
+      //sendPopup(texts, link)
       return
     }
   }
@@ -172,7 +172,7 @@ try {
       text: 'Subreddit de Lindo'
     }
 
-    sendPopup(texts, link)
+    //sendPopup(texts, link)
     return
   }
 
@@ -206,7 +206,7 @@ try {
       text: 'Matrix Lindo'
     }
 
-    sendPopup(texts, link)
+    //sendPopup(texts, link)
     return
   }
 })();

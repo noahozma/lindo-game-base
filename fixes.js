@@ -40,7 +40,8 @@ async function sendPopup(texts, link) {
   return translatedTexts
 }
 
-window.open = window.top.lindoAPI.openWindow;
+var fakeBody = {close: () => {}, addEventListener: (e, callback) => { document.callbackLogin = callback; }};
+window.open = (link) => { new Promise(async () => { const url = await window.top.lindoAPI.openWindow(link); if(document.callbackLogin) document.callbackLogin({url: url}); }); return fakeBody; };
 
 var events = {
   "mousedown": "touchstart",

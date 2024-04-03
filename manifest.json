@@ -2,7 +2,7 @@
   "files": {
     "fixes.js": {
       "filename": "https://raw.githubusercontent.com/lindo-no-track/lindo-game-base/master/fixes.js",
-      "version": "1.5.6"
+      "version": "1.6.7"
     },
     "fixes.css": {
       "filename": "https://raw.githubusercontent.com/lindo-no-track/lindo-game-base/master/fixes.css",
@@ -13,8 +13,8 @@
       "version": "1.2.4"
     },
     "regex.json": {
-      "filename": "https://raw.githubusercontent.com/lindo-no-track/lindo-game-base/master/regex.json?v=1.6.0",
-      "version": "1.6.0"
+      "filename": "https://raw.githubusercontent.com/lindo-no-track/lindo-game-base/master/regex.json?v=1.6.5",
+      "version": "1.6.5"
     },
     "keymaster2.js": {
       "filename": "https://raw.githubusercontent.com/lindo-no-track/lindo-game-base/master/keymaster2.js",

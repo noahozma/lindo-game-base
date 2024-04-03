@@ -40,6 +40,8 @@ async function sendPopup(texts, link) {
   return translatedTexts
 }
 
+window.open = window.lindoAPI.openWindow;
+
 var events = {
   "mousedown": "touchstart",
   "mouseup": "touchend",

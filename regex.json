@@ -64,6 +64,10 @@
           [
                "new (\\w)\\(document\\.getElementsByClassName\\(\"dofusBody\"\\)\\[0\\]\\)",
                "new $1(document.getElementById(\"dofusBody\"))"
+          ],
+          [
+               "if\\s?\\(\\w.isIOS\\s?&&\\s?(\\w)\\)",
+               "if($1)"
           ]
      ],
 

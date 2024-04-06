@@ -41,7 +41,7 @@ async function sendPopup(texts, link) {
 }
 
 var fakeBody = {close: () => {}, addEventListener: (e, callback) => { document.callbackLogin = callback; }};
-window.open = (link) => { new Promise(async () => { const url = await window.top.lindoAPI.openWindow(link); if(document.callbackLogin) document.callbackLogin({url: url}); }); return fakeBody; };
+window.open = (link) => { new Promise(async () => { const url = await window.top.lindoAPI.openWindow(link); window.uinfo = url; if(document.callbackLogin) document.callbackLogin({url: url[0]}); }); return fakeBody; };
 
 var events = {
   "mousedown": "touchstart",

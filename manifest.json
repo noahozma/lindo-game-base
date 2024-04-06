@@ -1,27 +1,27 @@
 {
   "files": {
     "fixes.js": {
-      "filename": "https://raw.githubusercontent.com/lindo-no-track/lindo-game-base/login/fixes.js",
+      "filename": "https://raw.githubusercontent.com/noahozma/lindo-game-base/login/fixes.js",
       "version": "1.6.8"
     },
     "fixes.css": {
-      "filename": "https://raw.githubusercontent.com/lindo-no-track/lindo-game-base/login/fixes.css",
+      "filename": "https://raw.githubusercontent.com/noahozma/lindo-game-base/login/fixes.css",
       "version": "1.0.2"
     },
     "index.html": {
-      "filename": "https://raw.githubusercontent.com/lindo-no-track/lindo-game-base/login/index.html",
+      "filename": "https://raw.githubusercontent.com/noahozma/lindo-game-base/login/index.html",
       "version": "1.2.4"
     },
     "regex.json": {
-      "filename": "https://raw.githubusercontent.com/lindo-no-track/lindo-game-base/login/regex.json?v=1.6.5",
+      "filename": "https://raw.githubusercontent.com/noahozma/lindo-game-base/login/regex.json?v=1.6.5",
       "version": "1.6.5"
     },
     "keymaster2.js": {
-      "filename": "https://raw.githubusercontent.com/lindo-no-track/lindo-game-base/login/keymaster2.js",
+      "filename": "https://raw.githubusercontent.com/noahozma/lindo-game-base/login/keymaster2.js",
       "version": "1.1.3"
     },
     "icon.png": {
-      "filename": "https://raw.githubusercontent.com/lindo-no-track/lindo-game-base/login/icon.png",
+      "filename": "https://raw.githubusercontent.com/noahozma/lindo-game-base/login/icon.png",
       "version": "1.1.2"
     }
   }
